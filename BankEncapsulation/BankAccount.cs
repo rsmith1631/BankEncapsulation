@@ -11,7 +11,7 @@ namespace BankEncapsulation
         public BankAccount()
         { 
         }
-        private double balance = 10;
+        private double balance = 0;
         public void Deposit(double amount)
         {
             balance = amount;
